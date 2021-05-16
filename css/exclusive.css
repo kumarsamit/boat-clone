@@ -1,0 +1,16 @@
+.discount-info{
+    width: 100%;
+    padding: 30px 10px;
+    background:black ;
+}
+.discount-info h1{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+.discount-info p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}

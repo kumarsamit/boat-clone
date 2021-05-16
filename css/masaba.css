@@ -1,0 +1,17 @@
+.masaba-main-container{
+    width: 100%;
+    padding: 10px 20px;
+    background:black ;
+}
+.masaba-main-container .masaba-hero-1{
+    width: 100%;
+    max-width: 1180px !important;
+    margin: auto;
+}
+.masaba-hero-1 img{
+    width: 100%;
+    cursor: pointer;
+}
+.masaba-hero-1 video{
+    margin: auto;
+}

@@ -1,0 +1,68 @@
+.kl-rahul-heading{
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    
+}
+.boat-head-hero{
+    max-width: 1180px;
+    padding: 20px;
+    margin: auto;
+    padding-bottom: 150px;
+    margin-top: 20px;
+    background-color: white;
+
+}
+.boat-head-hero img{
+    width: 80%;
+    margin: auto;
+}
+.boat-head-hero-1{
+    max-width: 1180px;
+    margin: auto;
+    padding-bottom: 40px;
+    position: relative;
+}
+.boat-head-hero-1 video{
+    width: 50% !important;
+    position: absolute;
+    right: 0;
+    top:-140px;
+    z-index: 1;
+}
+.boat-padd{
+    padding-top: 150px;
+}
+@media screen and (max-width:770px){
+    .boat-head-hero-1 video{
+        width: 100% !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index:1;
+    }
+    .boat-head-hero{
+        padding-bottom: 20px;
+    
+    }
+    .boat-padd{
+        padding-top:55% !important;
+    }
+}
+@media screen and (max-width:570px){
+    .boat-padd{
+        padding-top:75% !important;
+    }
+}
+@media screen and (max-width:500px){
+    .boat-padd{
+        padding-top:100% !important;
+    }
+}
+@media screen and (max-width:470px){
+    .boat-padd{
+        padding-top:120% !important;
+    }
+}
+
+

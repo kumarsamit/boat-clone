@@ -1,0 +1,475 @@
+/* owl slider */
+.owl-theme{
+    width: 100%;
+    background: black;
+}
+.item{
+    width: 100%;
+}
+.item img{
+    width: 100%;
+}
+.owl-dots{
+    display: none;
+}
+
+/* featured product video  */
+.index-video{
+    width: 100%;
+    padding:0 20px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#indexVideo{
+    max-width: 1980px;
+    margin: auto;
+    display: block;
+    float: none;
+    width: 100%;
+}
+/* new launches slider */
+.new-launch{
+    width: 100%;
+    background: #494949;
+    padding: 30px 0 20px;
+}
+.new-launch h1{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    font-size: 800 !important;
+}
+.new-launch-row{
+    width: 90%;
+    margin: auto;
+    background: #ddd;
+}
+.new-launch-row-item{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.new-launch-row-item .row-item-desc{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row-item-desc .new-launch-col-1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-launch-col-1 img{
+    width: 80%;
+    border-radius: 50%;
+}
+.row-item-desc .new-launch-col-2{
+    width: 60%;
+    padding-top: 7%;
+}
+.row-item-desc .new-launch-col-2 h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.row-item-desc .new-launch-col-2 p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.row-item-desc .new-launch-col-2 h4{
+    text-align: center;
+}
+.row-item-desc .new-launch-col-2 h4 a{
+    text-decoration:none;
+    color: white;
+    font-size: 14px;
+    background: #ed1c24;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+
+@media screen and (max-width:770px){
+    .row-item-desc .new-launch-col-1{
+        width: 100%;
+    } 
+    .row-item-desc .new-launch-col-1 img{
+        width: 70%;
+    } 
+    .row-item-desc .new-launch-col-2{
+        width: 100%;
+        padding-top: 5%;
+    }
+    .new-launch h1{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:500px){
+    .row-item-desc .new-launch-col-2 p{
+        font-size: 14px;
+        line-height: 14px;
+    } 
+}
+
+/* boatheads index */
+.boat-head-hero{
+    width: 100%;
+    background: #2c2c2c;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap-reverse;
+}
+.boat-head-hero .boat-head-hero-col-1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boat-head-hero .boat-head-hero-col-1 .boat-head-info-1{
+    width: 100%;
+    padding: 10px;
+}
+.boat-head-hero-col-1 .boat-head-info-1 h1{
+    color: #ed1c24;
+    font-size: 54px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.boat-head-hero-col-1 .boat-head-info-1 h1::before{
+    content: " ";
+    z-index: 1;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 30%;
+    height: 5px;
+    border-radius: 10px;
+    background: #ed1c24;
+}
+
+.boat-head-hero-col-1 .boat-head-info-1 h3{
+    color: #ed1c24;
+    font-size: 22px;
+    font-weight: 400;
+}
+.boat-head-hero-col-1 .boat-head-info-1 h3 span{
+    font-weight: 700 !important;
+}
+.boat-head-hero-col-1 .boat-head-info-1 h4{
+    font-weight: 700;
+    color: white;
+}
+.boat-head-hero-col-1 .boat-head-info-1 p{
+    color:white
+}
+.boat-head-hero .boat-head-hero-col-2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boat-head-hero .boat-head-hero-col-2 img{
+    width: 90%;
+}
+@media screen and (max-width:1100px){
+    .boat-head-hero-col-1 .boat-head-info-1 h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:870px){
+    .boat-head-hero .boat-head-hero-col-1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .boat-head-hero .boat-head-hero-col-2{
+        width: 100%;
+    }
+    .boat-head-hero-col-1 .boat-head-info-1 h4{
+        font-size: 18px;
+    }
+
+
+}
+
+/* best seller  */
+.best-seller{
+    width: 100%;
+    background:black;
+    padding: 70px 0 20px; 
+}
+
+.best-seller h1{
+    color:white;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.best-seller .best-seller-row{
+    width: 90%;
+    margin: auto;
+}
+.best-seller-mr{
+    margin: 10px;
+    display: inline-block;
+}
+
+
+/* index hero faces */
+.hero-faces{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero-faces .hero-face-col-1{
+    width: 50%;
+}
+.hero-faces .hero-face-col-1  .hero-face-col-1-2{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.hero-face-col-1-2 .hero-face-col-1-2-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    opacity: 1;
+}
+.hero-face-col-1-2:hover .hero-face-col-1-2-info{
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+}
+.hero-face-col-1-2 .hero-face-col-1-2-info h2{
+    font-weight: 600;
+    text-align: center;
+    color:white;
+}
+
+.hero-face-col-1-2 .hero-face-col-1-2-info p{
+    color:white;
+    text-align: center;
+    display: none;
+}
+.hero-face-col-1-2:hover .hero-face-col-1-2-info p{
+    display: block;
+}
+
+.hero-face-col-1 .hero-face-col-1-2 img{
+    width: 100%;
+}
+
+.hero-face-col-1-2 .hero-face-col-1-2-2{
+    width: 50%;
+    position: relative;
+}
+.hero-face-col-1-2 .hero-face-col-1-2-2-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    justify-content: center;
+}
+.hero-face-col-1-2 .hero-face-col-1-2-2-info h2{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+.hero-face-col-1-2 .hero-face-col-1-2-2-info p{
+    color: white;
+    text-align: center;
+    display: none;
+}
+.hero-face-col-1-2 .hero-face-col-1-2-2 img{
+    width: 100%;
+}
+.hero-face-col-1-2-2:hover .hero-face-col-1-2-2-info{
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+}
+.hero-face-col-1-2-2:hover .hero-face-col-1-2-2-info p{
+    display: block;
+}
+@media screen and (max-width:770px){
+    .hero-faces .hero-face-col-1{
+        width: 100%;
+    }
+}
+
+
+/* 5th largest brand */
+.watch-brand{
+    width: 100%;
+    background:black;
+}
+.watch-brand .watch-brand-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background:#222 ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.watch-brand-container .watch-brand-col-1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+.watch-brand-container .watch-brand-col-1 div h1{
+    color: #ed1c24;
+    font-weight: 700;
+    font-size: 48px;
+}
+.watch-brand-container .watch-brand-col-1 div p{
+    color: white;
+    margin-top: 20px;
+}
+
+.watch-brand .watch-brand-col-2{
+    width: 60%;
+    padding: 5px;
+}
+.watch-brand .watch-brand-col-2 img{
+    width: 100%;
+}
+@media screen and (max-width:1000px){
+     .watch-brand-col-1 div h1{
+         font-size: 32px !important;
+     }
+}
+@media screen and (max-width:800px){
+    .watch-brand-container .watch-brand-col-1{  
+        width: 100%;
+    }
+    .watch-brand .watch-brand-col-2{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* in the press */
+.press-col{
+    width: 100%;
+    background:black;
+    padding: 40px 0 20px;
+}
+.press-col .press-col-info{
+    width: 80%;
+    margin: auto;
+}
+.press-col-info h1{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.press-col-info p{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+/* brand partners */
+.brand-partner{
+    width: 100%;
+    background:black;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand-partner div{
+    width: 18%;
+    margin: 10px 0;
+}
+.brand-partner div img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+.brand-partner div img:hover{
+    filter: grayscale(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* no. 1 brand */
+.brand-no-1{
+    width: 100%;
+    background:black;
+}
+.brand-no-1 .brand-no-1-img{
+    width: 50%;
+    margin: auto;
+}
+.brand-no-1-img img{
+    width: 100%;
+}
+@media screen and (max-width:1100px){
+    .brand-no-1 .brand-no-1-img{
+        width: 65%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:900px){
+    .brand-no-1 .brand-no-1-img{
+        width: 75%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:770px){
+    .brand-no-1 .brand-no-1-img{
+        width: 85%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
